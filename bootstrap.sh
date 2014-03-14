@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 apt-get update
-apt-get install -y nginx
+apt-get install -y nginx php5-fpm
 
 rm -rf /var/www
 rm /etc/nginx/sites-enabled/default
